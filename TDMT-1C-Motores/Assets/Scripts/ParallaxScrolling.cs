@@ -9,10 +9,14 @@ public class ParallaxScrolling : MonoBehaviour
     private float spriteHeight; //variable para setear la altura del background
     private Vector3 startPos; //variable para setear la posicion de reseto
 
+    private void Awake()
+    {
+        spriteHeight = GetComponent<SpriteRenderer>().bounds.size.y; //la altura sera el tamaño en Y del sprite de este objeto
+
+    }
     void Start()
     {
         startPos = transform.position; //la posicion inicial es 0, 0, 0.
-        spriteHeight = GetComponent<SpriteRenderer>().bounds.size.y; //la altura sera el tamaño en Y del sprite de este objeto
     }
 
     void Update()
