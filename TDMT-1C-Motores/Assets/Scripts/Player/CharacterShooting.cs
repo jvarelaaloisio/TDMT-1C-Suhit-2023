@@ -5,40 +5,33 @@ using UnityEngine.InputSystem;
 
 public class CharacterShooting : MonoBehaviour
 {
-    [SerializeField] private GameObject bullet;
-    [SerializeField] private Transform shootingPoint;
-
-    [SerializeField] private float shootingInterval;
+    //[SerializeField] private Cannon cannon;
+    //[SerializeField] private float shootingInterval;
     private float intervalReset;
-
-    private float inputValue;
+    private float _inputValue;
 
     void Start()
     {
-        intervalReset = shootingInterval;
+        //intervalReset = shootingInterval;
     }
 
     void Update()
     {
-        shootingInterval -= Time.deltaTime;
+        //shootingInterval -= Time.deltaTime;
 
-        if (shootingInterval <= 0) 
-        {
-            if (inputValue == 1f)
-            {
-                Shoot();
-            }
-            shootingInterval = intervalReset;
-        }
+        //if (_inputValue == 1f)
+        //{
+        //    if (shootingInterval <= 0)
+        //    {
+
+        //        //cannon.Shoot();
+        //        shootingInterval = intervalReset;
+        //    }
+        //}
     }
 
-    public void SetShootValue(InputAction.CallbackContext inputContext)
-    {
-        inputValue = inputContext.ReadValue<float>();
-    }
-
-    void Shoot()
-    {
-        Instantiate(bullet, shootingPoint.position, Quaternion.identity);
-    }
+    //public void SetInputPressed(float inputValue)
+    //{
+    //    _inputValue = inputValue;
+    //}
 }

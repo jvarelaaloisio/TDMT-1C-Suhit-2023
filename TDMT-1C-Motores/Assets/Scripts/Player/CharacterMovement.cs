@@ -5,13 +5,13 @@ using UnityEngine.InputSystem;
 
 public class CharacterMovement : MonoBehaviour
 {
-    [SerializeField] private float xMin;
-    [SerializeField] private float xMax;
-    [SerializeField] private float yMin;
-    [SerializeField] private float yMax;
+    [SerializeField] private float xMin = -4f;
+    [SerializeField] private float xMax = 4f;
+    [SerializeField] private float yMin = -7f;
+    [SerializeField] private float yMax = 7f;
     [SerializeField] private float speed;
 
-    private Vector2 inputValue;
+    public Vector2 _direction;
 
     void Start()
     {
@@ -20,17 +20,12 @@ public class CharacterMovement : MonoBehaviour
 
     void Update()
     {
-        MoveCharacter();
-    }
-
-    public void SetMoveValue(InputAction.CallbackContext inputContext)
-    {
-        inputValue = inputContext.ReadValue<Vector2>();
-    }
-
-    void MoveCharacter()
-    {
-        transform.position = transform.position + new Vector3(inputValue.x, inputValue.y) * speed * Time.deltaTime;
+        transform.position = transform.position + new Vector3(_direction.x, _direction.y) * (speed * Time.deltaTime);
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, xMin, xMax), Mathf.Clamp(transform.position.y, yMin, yMax), 0);
+    }
+
+    public void SetDirection(Vector2 direction)
+    {
+        _direction = direction;
     }
 }
