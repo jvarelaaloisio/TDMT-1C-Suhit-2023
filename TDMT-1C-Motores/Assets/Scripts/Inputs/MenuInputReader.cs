@@ -14,6 +14,7 @@ public class MenuInputReader : MonoBehaviour
     [SerializeField] private GameObject menu;
     [SerializeField] private GameObject tutorialLevel;
     [SerializeField] private GameObject credits;
+    [SerializeField] private GameObject player;
 
 
     private void OnEnable()
@@ -44,6 +45,9 @@ public class MenuInputReader : MonoBehaviour
     {
         menu.SetActive(false);
         tutorialLevel.SetActive(true);
+        player.SetActive(true);
+        player.transform.position = new Vector3(0, -6.30f, 0);
+
     }
 
     private void HandleCreditsPlay()
