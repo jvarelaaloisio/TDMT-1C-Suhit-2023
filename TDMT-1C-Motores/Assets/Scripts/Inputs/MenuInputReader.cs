@@ -12,7 +12,7 @@ public class MenuInputReader : MonoBehaviour
     [SerializeField] private Button goToMenuButton;
 
     [SerializeField] private GameObject menu;
-    [SerializeField] private GameObject game;
+    [SerializeField] private GameObject tutorialLevel;
     [SerializeField] private GameObject credits;
 
 
@@ -28,7 +28,7 @@ public class MenuInputReader : MonoBehaviour
 
     private void HandleMenuInGame()
     {
-       game.SetActive(false);
+        tutorialLevel.SetActive(false);
         menu.SetActive(true);
     }
 
@@ -43,7 +43,7 @@ public class MenuInputReader : MonoBehaviour
     private void HandleStartPlay()
     {
         menu.SetActive(false);
-        game.SetActive(true);
+        tutorialLevel.SetActive(true);
     }
 
     private void HandleCreditsPlay()
