@@ -8,12 +8,7 @@ public class EnemyShoot : MonoBehaviour
 
     private float shootTimer = 0f;
     [SerializeField] private float shootInterval;
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         shootTimer += Time.deltaTime;

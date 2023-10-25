@@ -14,7 +14,9 @@ GameObject:
   - component: {fileID: 6640066481699678163}
   - component: {fileID: 2446565937777412176}
   - component: {fileID: -4184249305788154409}
-  m_Layer: 0
+  - component: {fileID: -7621003776638451801}
+  - component: {fileID: 1016557542099589677}
+  m_Layer: 6
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +179,7 @@ MonoBehaviour:
   yMin: -7
   yMax: 10
   speed: 5
-  _direction: {x: 0, y: 0}
+  _direction: {x: 0, y: 1}
 --- !u!114 &-4184249305788154409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,3 +192,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82771bef607e51d45a14ec241873e8ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-7621003776638451801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678448455539139942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01971318f6cdcf249aa6b77f786215b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  bulletExplosion: {fileID: 7876515291882289766, guid: b58e901934d48154d8be5d56e87eb533, type: 3}
+--- !u!114 &1016557542099589677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678448455539139942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a58b06571e0544f90afd4a307ad412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1

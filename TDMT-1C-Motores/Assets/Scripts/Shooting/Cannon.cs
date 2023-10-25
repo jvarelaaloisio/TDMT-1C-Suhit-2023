@@ -7,15 +7,6 @@ public class Cannon : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform cannonPoint;
     [SerializeField] private AudioSource cannonClip;
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-        
-    }
 
     public void Shoot()
     {
