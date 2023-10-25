@@ -20,9 +20,7 @@ public class InputReader : MonoBehaviour
         {
             if (cannon == null)
             {
-                Debug.LogError($"{name}: Gun is null! </3");
                 return;
-
             }
                 cannon.Shoot();
         }
