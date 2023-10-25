@@ -11,7 +11,6 @@ public class ChangeLevel : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Cambio de level");
             actualLevel.SetActive(false);
             nextLevel.SetActive(true);
         }

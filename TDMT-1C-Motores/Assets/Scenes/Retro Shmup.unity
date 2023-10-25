@@ -3712,41 +3712,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWhitGun (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 5803702961003714030, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
-      propertyPath: speed
-      value: 4
+    - target: {fileID: 4121319379850283229, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[0].x
-      value: -2
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[0].y
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[1].x
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[1].y
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[2].x
-      value: -2
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[2].y
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[3].x
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[3].y
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7215803052506459894, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3754,7 +3754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7215803052506459894, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7215803052506459894, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4161,17 +4161,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWhitGun
       objectReference: {fileID: 0}
-    - target: {fileID: 5803702961003714030, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
-      propertyPath: speed
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7215803052506459894, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7215803052506459894, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7215803052506459894, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4920,25 +4916,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWhitGun (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 5803702961003714030, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
-      propertyPath: speed
-      value: 5
+    - target: {fileID: 4121319379850283229, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
+      propertyPath: positions.Array.data[0].x
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[0].y
-      value: 2
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
+      propertyPath: positions.Array.data[1].x
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[1].y
-      value: 2
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
+      propertyPath: positions.Array.data[2].x
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[2].y
-      value: 2
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
+      propertyPath: positions.Array.data[3].x
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6914425868124252159, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: positions.Array.data[3].y
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 7215803052506459894, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4946,7 +4958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7215803052506459894, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 7215803052506459894, guid: 2d8e04cbd68f729459c438cfddf578e5, type: 3}
       propertyPath: m_LocalPosition.z
